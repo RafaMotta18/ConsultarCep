@@ -1,0 +1,51 @@
+/* MOBILE */
+
+body {
+    background-image: url(./cidade.jpg);   
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 60%;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+#button {
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    background: black;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    #container {
+        width: 30%;
+    }
+}
